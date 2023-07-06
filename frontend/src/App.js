@@ -17,13 +17,23 @@ function App() {
     );
   }, []);
 
-  const checkDir = (file) => {
-    return file.dir ? <li>{file.name}</li> : <li>{file.name}</li>;
+  const checkDir = (file, i) => {
+    return file.dir ? (
+      <li key={i} className="file">
+        {file.name}
+      </li>
+    ) : (
+      <li key={i} className="file">
+        {file.name}
+      </li>
+    );
   };
 
   return (
-    <div className="App">
-      <ul>{data.files.map((item) => checkDir(item))}</ul>
+    <div className="file_wrapper">
+      <ul className="folder-list">
+        {data && data.files.map((item, ind) => checkDir(item, ind))}
+      </ul>
     </div>
   );
 }
