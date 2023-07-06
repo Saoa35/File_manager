@@ -1,0 +1,2 @@
+JavaScript/TypeScript Developer (Middle)
+Looking for a JavaScript/TypeScript Developer Middle to join our core team. **Requirements:** -JavaScript, ES6, TypeScript (2+ years of experience) -React, Node.Js -HTML, CSS, CSS-in-JS (Emotion/Styled Components/etc) -REST API -Redux\Mobx …
